@@ -1,12 +1,32 @@
+<% provide(:title, 'Home') %>
 <div class="center hero-unit">
-  <h1>Welcome to the Sample App</h1>
+  <h1>Bienvenido a CINTESA</h1>
+  <!--
   <h2>
     This is the home page for the
     <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
     sample application.
   </h2>
+  %= link_to "Sign up now!", signup_path , class: "btn btn-large btn-primary" %>
+  -->
+  <%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
+  <h5>
+    <p align="justify">
+    CAPITAL INTELECTUAL S.A., de abreviatura CINTESA, es una firma de profesionales dedicada a los servicios de Administración, Contabilidad, Tributación, Auditoría y Gestión de empresas, con especialidad relevante en el sector minero.
+    </p>
 
-  <%= link_to "Sign up now!", signup_path , class: "btn btn-large btn-primary" %>
+    <p align="justify">
+    La formación académica y experiencia profesional de cada miembro de nuestro equipo, conjugada con una permanente capacitación, es garantía de servicio a nuestros clientes.
+    </p>
+
+    <p align="justify">
+    En nuestra opinión, la gestión del conocimiento es un factor determinante para el progreso de las empresas u organizaciones. Como respuesta a esta forma de ver las cosas, nace CINTESA con el objetivo de convertir en visible el activo intelectual, gestionarlo y transformarlo en un valor real para su organización, generando una fortaleza adicional a su visión empresarial.
+    </p>
+
+    <p align="justify">
+    Contamos con un staff de profesionales que nos permite satisfacer sus necesidades en términos de calidad y precios, brindando asesoría personalizada al cliente a través de nuestros profesionales senior.
+    </p>
+  </h5>
 </div>
 
-<%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
+<!--%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>-->

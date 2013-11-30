@@ -100,3 +100,12 @@ footer {
     }
   }
 }
+
+.list{
+  li{
+    list-style-type: none;
+    &:before{
+      content: "— ";
+    }
+  }
+}
