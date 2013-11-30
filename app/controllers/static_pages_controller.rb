@@ -13,4 +13,7 @@ class StaticPagesController < ApplicationController
 
   def services
   end
+
+  def minery_services
+  end
 end
